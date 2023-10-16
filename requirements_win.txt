@@ -1,0 +1,6 @@
+opencv-python
+gdown
+numpy==1.19.5
+matplotlib==3.5
+tensorflow==2.4
+win10toast
