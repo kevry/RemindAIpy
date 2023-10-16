@@ -1,4 +1,4 @@
-# RemindAIpy (python)
+# RemindAIpy (python) -- version 0.1
 Python alternative to the Remind A.I. project
 
 #### Written by Kevin M. Delgado
@@ -21,7 +21,14 @@ Demo Link - https://drive.google.com/file/d/1pKkIDtWujqohYbHvuVvlgWnHKYRE7IbM/vi
 
 1.  Clone the repository ``git clone https://github.com/kevry/RemindAIpy.git``
 
-2.  Create a Python environment using ``requirements.txt``
+2.  Create a Python environment using either ``requirements.txt`` or ``requirements_win.txt`` if you are on a Windows OS
 
 3.  Start script ``python main.py``
 
+## Use
+At the start,  you can set the limit of how long you want to be sitting for (in minutes), and how you want to be alerted if you exceed the limit (only notification available at the moment). Once a session has started, Remind A.I. will track when you are sitting and standing and the overall frequency of how ofter you are sitting and standing.
+
+<img width="360" alt="remind_ai_intro_screen" src="https://github.com/kevry/RemindAIpy/assets/45439265/31303b94-441b-4816-950b-60f3cba6ccaa">
+
+
+<img width="500" alt="remind_ai_tracking_screen" src="https://github.com/kevry/RemindAIpy/assets/45439265/86f063e1-d9a2-47ba-bf95-e8bb89911456">
